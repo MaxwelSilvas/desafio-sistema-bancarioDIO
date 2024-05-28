@@ -44,10 +44,12 @@ def sacar():
 
 def extrato():
     if not transacoes_extrato:
-        print("Não há transações para demonstrar.")
+        print("Não há transações para exibir.")
     else:
+        print("Extrato de transações:\n")
         for transacao in transacoes_extrato:
             print(transacao)
+        print(f"\nSaldo atual: R$ {saldo:.2f}")
 
 while opcao != 0:
     try:
