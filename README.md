@@ -31,3 +31,5 @@ O desafio consiste em implementar um sistema bancário com as seguintes funciona
 ### Extrato
 
 - Exibe todas as transações realizadas (depósitos e saques) e o saldo atual.
+
+# Possui outra Branch com a versão atualizada
