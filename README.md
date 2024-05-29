@@ -9,7 +9,10 @@ O desafio consiste em implementar um sistema bancário com as seguintes funciona
 1. **Depósito**: Permite ao usuário adicionar um valor ao saldo bancário.
 2. **Saque**: Permite ao usuário retirar um valor do saldo bancário, respeitando o limite de saques diários e o limite de valor por saque.
 3. **Extrato**: Exibe todas as transações realizadas (depósitos e saques) e o saldo atual.
-4. **Sair**: Encerra o sistema bancário.
+4. **Criar Usuário**: Permite a criação de um novo usuário, fornecendo informações como CPF, nome, data de nascimento e endereço.
+5. **Criar Conta**: Permite a criação de uma nova conta bancária associada a um usuário existente.
+6. **Listar Contas**: Exibe todas as contas bancárias criadas, incluindo informações como agência, número da conta e titular.
+7. **Sair**: Encerra o sistema bancário.
 
 ## Funcionalidades
 
@@ -32,4 +35,15 @@ O desafio consiste em implementar um sistema bancário com as seguintes funciona
 
 - Exibe todas as transações realizadas (depósitos e saques) e o saldo atual.
 
-# Possui outra Branch com a versão atualizada
+### Criar Usuário
+
+- Permite a criação de um novo usuário, fornecendo informações como CPF, nome, data de nascimento e endereço.
+
+### Criar Conta
+
+- Permite a criação de uma nova conta bancária associada a um usuário existente.
+
+### Listar Contas
+
+- Exibe todas as contas bancárias criadas, incluindo informações como agência, número da conta e titular.
+
